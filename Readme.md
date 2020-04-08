@@ -20,6 +20,8 @@ Manually clone the repo and then run `npm install`.
 
 Run the following command to run startup migrations.
 
+$ adonis migration:run
+
 ## Introduction
 
 Adonis JS Demo with Posts, Users and Forms
