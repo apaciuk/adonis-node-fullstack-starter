@@ -30,3 +30,5 @@ Route.get('/posts/:id', 'PostController.details')
 
 Route.get('/forms/:id', 'FormController.details')
 
+Route.post('/posts', 'PostController.store')
+
