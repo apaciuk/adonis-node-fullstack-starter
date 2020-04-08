@@ -1,4 +1,7 @@
-{
+{ 
+  "engines": {
+    "node": "8.5.0"
+  } 
   "name": "adonis-fullstack-app",
   "version": "4.1.0",
   "adonis-version": "4.1.0",
@@ -27,7 +30,8 @@
     "@adonisjs/session": "^1.0.27",
     "@adonisjs/shield": "^1.0.8",
     "@adonisjs/validator": "^5.0.6",
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "url-parse": "^1.4.7"
   },
   "devDependencies": {},
   "autoload": {
