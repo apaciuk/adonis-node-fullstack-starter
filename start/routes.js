@@ -28,7 +28,7 @@ Route.get('/forms/add', 'FormController.add')
 
 Route.get('/posts/edit/:id', 'PostController.edit')
 
-Route.get('/forms/edit/:id', 'FormController.edit')
+
 
 Route.get('/posts/:id', 'PostController.details')
 
@@ -40,11 +40,9 @@ Route.post('/forms', 'FormController.store')
 
 Route.put('/posts/:id', 'PostController.update')
 
-Route.put('/forms/:id', 'FormController.update')
-
 Route.delete('/posts/:id', 'PostController.destroy')
 
-Route.delete('/forms/:id', 'FormController.destroy')
+
 
 
 

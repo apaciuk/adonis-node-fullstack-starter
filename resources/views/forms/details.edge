@@ -3,13 +3,8 @@
 @section('content')
 <a href="/forms">Go Back</a>
 <hr>
-<h1>{{ form.subject }}</h1>
-<p>{{ form.name }}</p>
-<p>{{ form.email }}</p>
-<p>{{ form.message }}</p>
-<hr>
-<form action="{{ '/forms/' + form.id + '?_method=DELETE' }}" method="FORM">
-  {{ csrfField() }}
-<button type="submit" class="btn btn-danger d-block">Delete</button>
-</form>
+<h1>Subject: {{ form.subject }}</h1>
+<p>From: {{ form.name }}</p>
+<p>Email: {{ form.email }}</p>
+<p>Message: {{ form.message }}</p>
 @endsection
