@@ -6,7 +6,7 @@ class FormController {
   async index({ view }) {
     const forms = await Form.all();
     return view.render('forms.index', {
-      title: 'Latest Contacts',
+      title: 'Latest Email Messages',
       forms:forms.toJSON()
     })
     }
