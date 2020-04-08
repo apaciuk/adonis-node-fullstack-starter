@@ -2,10 +2,15 @@
 
 @section('content')
 <h1>{{ title }}</h1>
+@if(old('notification'))
+<div class="alert alert-success">
+  {{ old('notification') }}
+</div>
+@endif
 <ul class="list-group">
 @each(form in forms)
 <li class="list-group-item"><a href="/forms/{{ form.id }}">
-    {{ form.title }}</a></li>
+    {{ form.subject }}</a></li>
 @endeach
 </ul>
 @endsection
