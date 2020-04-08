@@ -1,4 +1,4 @@
-{ 
+{
   "name": "adonis-fullstack-app",
   "version": "4.1.0",
   "adonis-version": "4.1.0",
@@ -36,5 +36,5 @@
   },
   "engines": {
     "node": "12.16.0"
-  } 
+  }
 }
