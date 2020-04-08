@@ -1,8 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300');
-html, body {
-height: 100%;
-width: 100%;
-}
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +7,7 @@ width: 100%;
   padding-top:50px;
 }
 .navbar-brand {
-  margin-bottom: 3px;
+  margin-bottom: 2px;
 }
 #navbarSupportedContent > ul > li.nav-item > a {
   text-decoration:none;
