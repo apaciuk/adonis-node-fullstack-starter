@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300');
 html, body {
 height: 100%;
-  width: 100%;
+width: 100%;
 }
 * {
   margin: 0;
@@ -10,12 +10,13 @@ height: 100%;
 .container {
   padding-top:50px;
 }
+.navbar-brand {
+  margin-bottom: 3px;
+}
 #navbarSupportedContent > ul > li.nav-item > a {
   text-decoration:none;
 }
-.logo {
-  margin-bottom: 7px;
-}
+
 h1 {
   color: rgb(32, 6, 68);
   opacity: 0;
@@ -32,7 +33,7 @@ h1 {
 }
 a {
   color: inherit;
-  text-decoration: underline;
+  text-decoration: none;
 }
 p {
   margin: 0.83rem 0;
