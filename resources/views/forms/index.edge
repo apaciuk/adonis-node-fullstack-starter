@@ -1,0 +1,11 @@
+@layout('main')
+
+@section('content')
+<h1>{{ title }}</h1>
+<ul class="list-group">
+@each(form in forms)
+<li class="list-group-item"><a href="/forms/{{ form.id }}">
+    {{ form.title }}</a></li>
+@endeach
+</ul>
+@endsection

@@ -20,7 +20,13 @@ Route.on('/').render('home')
 
 Route.get('/posts', 'PostController.index')
 
+Route.get('/forms', 'FormController.index')
+
 Route.get('/posts/add', 'PostController.add')
 
-Route.get('/posts/:id', 'PostrController.details')
+Route.get('/forms/add', 'FormController.add')
+
+Route.get('/posts/:id', 'PostController.details')
+
+Route.get('/forms/:id', 'FormController.details')
 

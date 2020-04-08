@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300');
-
 html, body {
 height: 100%;
   width: 100%;
@@ -13,6 +12,9 @@ height: 100%;
 }
 #navbarSupportedContent > ul > li.nav-item > a {
   text-decoration:none;
+}
+.logo {
+  margin-bottom: 7px;
 }
 h1 {
   color: rgb(32, 6, 68);
@@ -28,17 +30,13 @@ h1 {
   opacity: 0;
   animation: slideUp 1s cubic-bezier(0.19, 1, 0.30, 1) 0.5s forwards;
 }
-
-
 a {
   color: inherit;
   text-decoration: underline;
 }
-
 p {
   margin: 0.83rem 0;
 }
-
 @keyframes slideUp {
   0% {
     transform: translateY(40px);
