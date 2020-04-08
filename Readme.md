@@ -22,7 +22,7 @@ Run the following command to run startup migrations.
 
 ## Introduction
 
-Adonis JS app
+Adonis JS Demo with Posts, Users and Forms
 
 ## FAQ
 
