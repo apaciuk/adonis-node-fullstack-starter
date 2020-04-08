@@ -34,6 +34,8 @@ A. Yes. This is perfectly normal.
 
 ## Repo
 
+https://github.com/xhostcom/adonis-node-fullstack-starter.git
+
 ## Author
 
 Paul Anthony  McGowan

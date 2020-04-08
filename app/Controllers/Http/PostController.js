@@ -45,11 +45,11 @@ class PostController {
       post: post
     })
   }
-
-  // Update post
+  //Update Post
   async update({ params, request, response, session }) {
     // Validate input
-    const validation = await validate(request.all(), {
+    const { validate } = use('Validator')
+    const validation = await validate (request.all(), {
       title: 'required|min:3|max:255',
       body: 'required|min:3'
     })
@@ -71,6 +71,15 @@ class PostController {
     return response.redirect('/posts')
   }
 
+  async destroy({ params, session, response }) {
+    const post = await Post.find(params.id)
+
+    await post.delete()
+
+    session.flash({ notification: 'Post Deleted!' })
+
+    return response.redirect('/posts')
+  }
 
 }
 module.exports = PostController
